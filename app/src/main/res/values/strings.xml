@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Superhero Facts</string>
+    <string name="did_you_know">Did You Know?</string>
+    <string name="generate_fact">Generate Random Fact</string>
+</resources>
