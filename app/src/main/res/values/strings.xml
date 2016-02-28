@@ -1,5 +1,35 @@
 <resources>
     <string name="app_name">Superhero Facts</string>
+
+    <!-- Strings for labels on app screen. -->
     <string name="did_you_know">Did You Know?</string>
     <string name="generate_fact">Generate Random Fact</string>
+
+    <!-- An array of strings for superhero names. -->
+    <string-array name="superhero_names_array">
+        <item>Spider-Gwen</item>
+        <item>Spider-Man</item>
+        <item>Deadpool</item>
+        <item>Wonder Woman</item>
+        <item>Batman</item>
+        <item>Iron Man</item>
+    </string-array>
+
+    <!-- An array of strings for superhero facts. -->
+    <string-array name="superhero_details_array">
+        <item>In traditional Spider-Man canon, Gwen Stacy is Peter Parker\'s girlfriend. However, she
+            tragically died when taken captive by the Green Goblin. Her death made comics history as
+            the first time a hero was failed to rescue his girl.\n\nBut in alternate universe Earth-65,
+            Gwen Stacy transforms from tragic victim to hero.
+            That\'s right, in this world, Gwen Stacy received spider powers in lieu of Peter Parker.
+            Then, in a flipped fate, Gwen is unable to save Peter after his transformation into the
+            Lizard.</item>
+        <item>Deadpool\'s name comes from his time at Hospice (the alleged government facility where
+            failed superhuman operatives were treated. During this time, Deadpool and a host of others
+            were experimented on by Doctor Killbrew and Ajax. Due to the sadistic and tortuous nature
+            of the experiments, patients placed bets in a \"deadpool\" on who they expected to expire
+            first. Following his escape, Wade Wilson then took on the name Deadpool, becoming the
+            merc with a mouth who we all know and love.</item>
+    </string-array>
+
 </resources>

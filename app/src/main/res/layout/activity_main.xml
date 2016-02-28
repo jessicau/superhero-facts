@@ -21,25 +21,27 @@
         android:layout_height="150dp"
         android:layout_below="@+id/did_you_know_title"
         android:layout_centerHorizontal="true"
-        android:scaleType="centerInside"
         android:layout_marginBottom="16dp"
+        android:scaleType="centerInside"
         android:src="@drawable/spider_gwen" />
     <ScrollView
         android:id="@+id/superhero_info_scrollview"
         android:layout_width="400dp"
         android:layout_height="150dp"
         android:layout_below="@+id/superhero_image"
-        android:layout_marginBottom="48dp"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp">
         <TextView
+            android:id="@+id/superhero_details"
+            style="@style/BodyStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/BodyStyle"
             android:text="Spider-Gwen\nis\ncurrently\nthis\ndeveloper's\nfavorite\nsuperheroine.\nShe's\nAwesome"/>
     </ScrollView>
     <Button
+        style="@style/ButtonStyle"
         android:layout_below="@+id/superhero_info_scrollview"
         android:layout_centerHorizontal="true"
-        style="@style/ButtonStyle"
+        android:onClick="displaySuperheroInfo"
         android:text="@string/generate_fact"/>
 </RelativeLayout>
