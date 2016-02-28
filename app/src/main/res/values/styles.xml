@@ -12,12 +12,15 @@
     <style name="HeadingStyle">
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textSize">28sp</item>
-        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
 
     <style name="BodyStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textColor">#727272</item>
         <item name="android:textSize">16sp</item>
     </style>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,39 +9,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jessicauelmen.superherofacts.MainActivity">
 
-    <TextView
-        android:id="@+id/did_you_know_title"
-        style="@style/HeadingStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/did_you_know" />
-    <ImageView
-        android:id="@+id/superhero_image"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/did_you_know_title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/spider_gwen" />
-    <ScrollView
-        android:id="@+id/superhero_info_scrollview"
-        android:layout_width="400dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/superhero_image"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/did_you_know_title"
+            style="@style/HeadingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/did_you_know" />
+        <ImageView
+            android:id="@+id/superhero_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/did_you_know_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/spider_gwen" />
         <TextView
             android:id="@+id/superhero_details"
             style="@style/BodyStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Spider-Gwen\nis\ncurrently\nthis\ndeveloper's\nfavorite\nsuperheroine.\nShe's\nAwesome"/>
-    </ScrollView>
-    <Button
-        style="@style/ButtonStyle"
-        android:layout_below="@+id/superhero_info_scrollview"
-        android:layout_centerHorizontal="true"
-        android:onClick="displaySuperheroInfo"
-        android:text="@string/generate_fact"/>
-</RelativeLayout>
+            android:layout_below="@+id/superhero_image"
+            android:layout_marginBottom="32dp" />
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_below="@+id/superhero_details"
+            android:layout_centerHorizontal="true"
+            android:onClick="displaySuperheroInfo"
+            android:text="@string/generate_fact"/>
+    </RelativeLayout>
+</ScrollView>
