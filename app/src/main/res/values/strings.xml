@@ -5,31 +5,27 @@
     <string name="did_you_know">Did You Know?</string>
     <string name="generate_fact">Generate Random Fact</string>
 
-    <!-- An array of strings for superhero names. -->
-    <string-array name="superhero_names_array">
-        <item>Spider-Gwen</item>
-        <item>Spider-Man</item>
-        <item>Deadpool</item>
-        <item>Wonder Woman</item>
-        <item>Batman</item>
-        <item>Iron Man</item>
-    </string-array>
-
     <!-- An array of strings for superhero facts. -->
     <string-array name="superhero_details_array">
         <item>In traditional Spider-Man canon, Gwen Stacy is Peter Parker\'s girlfriend. However, she
             tragically died when taken captive by the Green Goblin. Her death made comics history as
             the first time a hero was failed to rescue his girl.\n\nBut in alternate universe Earth-65,
-            Gwen Stacy transforms from tragic victim to hero.
-            That\'s right, in this world, Gwen Stacy received spider powers in lieu of Peter Parker.
-            Then, in a flipped fate, Gwen is unable to save Peter after his transformation into the
-            Lizard.</item>
-        <item>Deadpool\'s name comes from his time at Hospice (the alleged government facility where
-            failed superhuman operatives were treated. During this time, Deadpool and a host of others
-            were experimented on by Doctor Killbrew and Ajax. Due to the sadistic and tortuous nature
-            of the experiments, patients placed bets in a \"deadpool\" on who they expected to expire
-            first. Following his escape, Wade Wilson then took on the name Deadpool, becoming the
-            merc with a mouth who we all know and love.</item>
+            Gwen Stacy transforms from tragic victim to hero, as she is the one to be bit by the
+            radioactive spider in lieu of Peter Parker.\n\nSpider-Gwen was originally meant to be a
+            one-off character introduced in Spider-Verse, an event that united Spider-Heroes across
+            different dimensions. However, her character was so popular that she now has her own title:
+            Radioactive Spider-Gwen.</item>
+        <item>Doctor Strange first appeared in comics in 1963. Although born a sorcerer and destined
+            to become the next Sorcerer Supreme, a childhood accident fueled a passion for medicine,
+            and he earned his medical degree from Columbia University. Early success in his field
+            lead him to be vain, egotistical, and callous - until an accident severed the nerve
+            endings in his hands, rending him unable to perform surgeries.\n\nA search for a cure
+            lead him to the far east, where he trained with the Ancient One in the ways of magic in
+            an effort to stop the attacks of Mordo. Upon his return to the US, Doctor Strange became
+            a mystical consultant. He spent time partnering with other superheroes on supernatural
+            matters, including Spider-Man, the X-Men, and the Avengers.\n\nOh, and that awesome cape
+            he wears? It\'s actually a mystical item called the Cloak of Levitation, imbuing the
+            wearer with the power to levitate and fly.</item>
         <item>Iron Man was created by Stan Lee as a challenge to create a hero that no one should
             like and force people to like him. From the mouth of Stan himself:\n\n\"I think I gave myself
             a dare. It was the height of the Cold War. The readers, the young readers, if there was
@@ -38,6 +34,24 @@
             the Army, he was rich, he was an industrialist....I thought it would be fun to take the
             kind of character that nobody would like, none of our readers would like, and shove him
             down their throats and make them like him....And he became very popular.\"</item>
+        <item>There is a character in the Marvel Universe named Squirrel Girl, and no, it\'s not a
+            joke. Her civilian name is Doreen Green, and her powers are derived from her mutation.
+            Physically, she has a semi-prehensile tail, a retractable knuckle spike, and enlarged
+            incisors. Squirrel Girl\'s also has enhanced strength, speed, and agility, and the power
+            to communicate with squirrels.\n\nShe first appeared in 1992, single-handedly defeating
+            Iron Man\'s nemesis, Doctor Doom by overwhelming him with an army of squirrel\'s under
+            her control.\n\nSince then, Squirrel Girl has joined the Great Lakes X-Men and also
+            helped S.H.I.E.L.D. and the New Avengers.</item>
+        <item>Scarlet Witch made her first appearance in X-Men #4 in 1964 as a member of the
+            Brotherhood of Evil Mutants. She was originally introduced as the twin sister of Quicksilver
+            (Pietro Maximoff) and daughter of the mutant Magneto. However, in 2015 (perhaps due to
+            Sony owning the movie rights to the X-Men and related \"mutants\") it was revealed that
+            Magneto was not the twin\'s father, and they were not truly mutants: they were abducted,
+            experimented on, and given powers by the High Evolutionary, and subsequently tricked into
+            thinking Magneto was their father.\n\nThough regardless of origin, Scarlet Witch is a
+            pretty amazing superhero. She has the ability to manipulate probability, causing
+            disastrous effects on her opponents. She also has the ability to manipulate chaos magic
+            and is an expert hand-to-hand combatant due to her experience as an Avenger.</item>
     </string-array>
 
 </resources>

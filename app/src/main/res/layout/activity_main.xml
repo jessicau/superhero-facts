@@ -25,8 +25,7 @@
             android:layout_below="@+id/did_you_know_title"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"
-            android:scaleType="centerInside"
-            android:src="@drawable/spider_gwen" />
+            android:scaleType="centerInside" />
         <TextView
             android:id="@+id/superhero_details"
             style="@style/BodyStyle"
