@@ -1,6 +1,6 @@
 INTRODUCTION
 
-Superhero Facts displays information on five superheroes: Spider-Gwen, Iron Man, Doctor Strange, Squirrel Girl, and Scarlet Witch. Facts are diplayed by
+Superhero Facts displays information on five superheroes: Spider-Gwen, Iron Man, Doctor Strange, Squirrel Girl, and Scarlet Witch. Facts are diplayed by pressing the "Generate Random Fact" button.
 
 BUILDING
 
